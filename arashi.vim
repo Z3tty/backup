@@ -46,7 +46,7 @@ hi Search guifg=#000000 guibg=#c0c000 gui=NONE cterm=NONE
 hi IncSearch guifg=#ffffff guibg=NONE gui=reverse cterm=reverse
 hi NonText guifg=#0000ff guibg=NONE gui=bold cterm=bold
 hi EndOfBuffer guifg=#0000ff guibg=NONE gui=bold cterm=bold
-hi ErrorMsg guifg=#BF0003 guibg=#cd0000 gui=NONE cterm=NONE
+hi ErrorMsg guifg=#BF0003 guibg=#0c0c0c gui=NONE cterm=NONE
 hi WarningMsg guifg=#ff0000 guibg=NONE gui=NONE cterm=NONE
 hi SignColumn guifg=#00ffff guibg=#a9a9a9 gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE guibg=#4d4d4d gui=NONE cterm=NONE
