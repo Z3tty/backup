@@ -3,7 +3,7 @@
 " Maintainer:   zetty
 " Website:      
 " License:      Same as Vim
-" Last Updated: Thr 11 May 2023 22:49 GMT+1
+" Last Updated: Wed 17 May 2023 13:49 GMT+1
 
 
 set background=dark
@@ -25,39 +25,39 @@ hi! link CursorLineSign CursorLine
 hi! link MessageWindow Pmenu
 hi! link PopupNotification Todo
 hi Normal guifg=#E3E3E3 guibg=NONE gui=NONE cterm=NONE
-hi Comment guifg=#7D88FF guibg=NONE gui=NONE cterm=italic
-hi Constant guifg=#F9C027 guibg=NONE gui=NONE cterm=bold
-hi Identifier guifg=#1A8A56 guibg=NONE gui=NONE cterm=NONE
-hi Statement guifg=#37AD76 guibg=NONE gui=bold cterm=bold
-hi PreProc guifg=#B60BF2 guibg=NONE gui=NONE cterm=NONE
-hi Type guifg=#E72A36 guibg=NONE gui=NONE cterm=bold
-hi Special guifg=#F7C838 guibg=NONE gui=NONE cterm=NONE
+hi Comment guifg=#8e8e8e guibg=NONE gui=NONE cterm=underline
+hi Constant guifg=#E78A86 guibg=NONE gui=NONE cterm=bold
+hi Identifier guifg=#37AD76 guibg=NONE gui=NONE cterm=NONE
+hi Statement guifg=#fe8e00 guibg=NONE gui=bold cterm=bold
+hi PreProc guifg=#B6aBF2 guibg=NONE gui=NONE cterm=NONE
+hi Type guifg=#1A8A56 guibg=NONE gui=NONE cterm=bold
+hi Special guifg=#F9C027 guibg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#80a0ff guibg=NONE gui=underline cterm=underline
 hi Ignore guifg=#000000 guibg=#000000 gui=NONE cterm=NONE
 hi Error guifg=#BF0003 guibg=#0c0c0c gui=NONE cterm=NONE
-hi Todo guifg=#BF0003 guibg=#c0c00c gui=NONE cterm=underline
-hi Conceal guifg=#e5e5e5 guibg=#a9a9a9 gui=NONE cterm=NONE
-hi Cursor guifg=#000000 guibg=#ffffff gui=NONE cterm=NONE
-hi lCursor guifg=#000000 guibg=#ffffff gui=NONE cterm=NONE
+hi Todo guifg=#F7C838 guibg=#0c0c0c gui=NONE cterm=underline
+hi Conceal guifg=#e5e5e5 guibg=NONE gui=NONE cterm=NONE
+hi Cursor guifg=#000000 guibg=#aaaaaa gui=NONE cterm=NONE
+hi lCursor guifg=#000000 guibg=#aaaaaa gui=NONE cterm=NONE
 hi CursorIM guifg=NONE guibg=fg gui=NONE cterm=NONE
 hi Title guifg=#ff00ff guibg=NONE gui=bold cterm=bold
 hi Directory guifg=#00c000 guibg=NONE gui=NONE cterm=NONE
 hi Search guifg=#000000 guibg=#c0c000 gui=NONE cterm=NONE
 hi IncSearch guifg=#ffffff guibg=NONE gui=reverse cterm=reverse
-hi NonText guifg=#0000ff guibg=NONE gui=bold cterm=bold
-hi EndOfBuffer guifg=#0000ff guibg=NONE gui=bold cterm=bold
+hi NonText guifg=#8e8e8e guibg=NONE gui=bold cterm=bold
+hi EndOfBuffer guifg=#8e8e8e guibg=NONE gui=bold cterm=bold
 hi ErrorMsg guifg=#BF0003 guibg=#0c0c0c gui=NONE cterm=NONE
-hi WarningMsg guifg=#ff0000 guibg=NONE gui=NONE cterm=NONE
-hi SignColumn guifg=#00ffff guibg=#a9a9a9 gui=NONE cterm=NONE
+hi WarningMsg guifg=#c0c000 guibg=#0c0c0c gui=NONE cterm=NONE
+hi SignColumn guifg=#00ffff guibg=NONE gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE guibg=#4d4d4d gui=NONE cterm=NONE
 hi FoldColumn guifg=#7f7f7f guibg=#303030 gui=NONE cterm=NONE
 hi Folded guifg=#7f7f7f guibg=#303030 gui=NONE cterm=NONE
-hi CursorColumn guifg=NONE guibg=#3a3a3a gui=NONE cterm=NONE
+hi CursorColumn guifg=NONE guibg=NONE gui=NONE cterm=NONE
 hi CursorLine guifg=NONE guibg=#3a3a3a gui=NONE cterm=NONE
-hi CursorLineNr guifg=#ffff00 guibg=#3a3a3a gui=bold cterm=bold
-hi Visual guifg=#00008b guibg=#a9a9a9 gui=NONE cterm=NONE
+hi CursorLineNr guifg=#37AD76 guibg=#3a3a3a gui=bold cterm=bold
+hi Visual guifg=#CC7733 guibg=#aeaeae gui=NONE cterm=NONE
 hi VisualNOS guifg=NONE guibg=#000000 gui=bold,underline cterm=underline
-hi LineNr guifg=#5c5c5c guibg=NONE gui=NONE cterm=NONE
+hi LineNr guifg=#1A8A56 guibg=NONE gui=NONE cterm=NONE
 hi! link LineNrAbove LineNr
 hi! link LineNrBelow LineNr
 hi MatchParen guifg=NONE guibg=#008b8b gui=NONE cterm=NONE
@@ -71,7 +71,7 @@ hi SpellBad guifg=#ff0000 guibg=NONE guisp=#ff0000 gui=undercurl cterm=underline
 hi SpellCap guifg=#5c5cff guibg=NONE guisp=#5c5cff gui=undercurl cterm=underline
 hi SpellLocal guifg=#ff00ff guibg=NONE guisp=#ff00ff gui=undercurl cterm=underline
 hi SpellRare guifg=#ffff00 guibg=NONE guisp=#ffff00 gui=undercurl cterm=underline
-hi StatusLine guifg=#ffff00 guibg=#0000ee gui=NONE cterm=NONE
+hi StatusLine guifg=#efefef guibg=#aa66ee gui=NONE cterm=NONE
 hi StatusLineNC guifg=#000000 guibg=#ffffff gui=NONE cterm=NONE
 hi VertSplit guifg=#000000 guibg=#ffffff gui=NONE cterm=NONE
 hi TabLine guifg=#ffffff guibg=#7f7f7f gui=NONE cterm=NONE
