@@ -67,9 +67,9 @@ if [ "$color_prompt" = yes ]; then
     # override default virtualenv indicator in prompt
     VIRTUAL_ENV_DISABLE_PROMPT=1
 
-    prompt_color='\[\033[;90m\]'
-    info_color='\[\033[1;91m\]'
-    time_color='\[\033[1;93m\]'
+    prompt_color='\[\033[;94m\]'
+    info_color='\[\033[1;92m\]'
+    time_color='\[\033[1;32m\]'
     prompt_symbol=Ω
     if [ "$EUID" -eq 0 ]; then # Change prompt colors for root user
         prompt_color='\[\033[;94m\]'
